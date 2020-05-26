@@ -1,6 +1,5 @@
 body {
   font-family: sans-serif;
-  background-color: #41754f;
 }
 
 #text-box {
@@ -8,5 +7,25 @@ body {
   height: 100vh;
   margin: 5px;
   outline: none;
-  border: black, solid, 1px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: #999999
+}
+
+.light-mode {
+  background-color: #41754f;
+}
+
+.dark-mode-text-box {
+  background-color: black;
+}
+
+.light-mode-text-box {
+  background-color: white;
+}
+
+#dark-mode-btn {
+  outline: none;
 }

@@ -1,2 +1,2 @@
-# markdown-editor
-#### Started on: 05-26-2020
+# markdown editor
+#### Super simple markdown editor made with JS, CSS, HTML, Bootstrap, Showdown
