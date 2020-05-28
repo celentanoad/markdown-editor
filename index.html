@@ -4,26 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css">
   <link rel="stylesheet" href="css/main.css"/>
   <script defer src="js/main.js"></script>
   <title>Markdown Editor</title>
 </head>
 <body>
-<div class="light-mode" id="wrapper">
-  <header>
+<div class="light-mode" id="wrapper" >
+  <nav class="border fixed split-nav">
     Markdown Editor
-  </header>
-  <button class="btn" id="dark-mode-btn">Dark Mode: Off</button>
-  <div class="row">
-    <div class="col-md-6">
-      <textarea id="text-box">
-##This is a markdown editor.
-####Try entering some markdown and see what happens!
-      </textarea>
+    <button class="btn" id="dark-mode-btn">Dark Mode: Off</button>
+  </nav>
+  <div class="row flex-spaces">
+    <div class="sm-6 col">
+      <div class="form-group">
+        <textarea id="text-box">
+          ##This is a markdown editor.
+          ####Try entering some markdown and see what happens!
+        </textarea>
+      </div>
     </div>
-    <div class="col-md-6">
-      <div id="output"></div>
+    <div class="sm-6 col">
+      <div class="form-group">
+        <div id="output">
+        </div>
+      </div>
     </div>
   </div>
   </div>
